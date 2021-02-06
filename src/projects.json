@@ -43,7 +43,7 @@
 	},
 	{
 		"name": "Ecce Arca",
-		"description": "A website for rating the thousands of audio files contained in Rivers Cuomo's Dropbox.",
+		"description": "A website made in Javascript (React) and Node for rating the thousands of audio files contained in Rivers Cuomo's Dropbox.",
 		"url": "https://rowrawer.cf:5458",
 		"demo": false
 	}
