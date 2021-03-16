@@ -29,9 +29,6 @@
 		"rollup-plugin-serve": "^1.1.0",
 		"rollup-plugin-terser": "^7.0.2"
 	},
-	"dependencies": {
-		"@babel/polyfill": "^7.12.1"
-	},
 	"scripts": {
 		"build": "rd /s /q public && mkdir public && rollup -c",
 		"dev": "rd /s /q public && mkdir public && rollup -c -w"

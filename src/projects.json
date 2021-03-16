@@ -38,7 +38,7 @@
 	{
 		"name": "The Stream Detector",
 		"description": "A Firefox addon that detects streams and assembles readymade commands for capturing.",
-		"url": "https://addons.mozilla.org/en-US/firefox/addon/hls-stream-detector",
+		"url": "https://addons.mozilla.org/firefox/addon/hls-stream-detector",
 		"demo": false
 	},
 	{

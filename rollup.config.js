@@ -62,7 +62,8 @@ export default {
 					src: "src/index.html",
 					dest: "public",
 					transform:
-						production && (contents => minify(contents.toString(), htmlconfig))
+						production &&
+						((contents) => minify(contents.toString(), htmlconfig))
 				},
 				{
 					src: "src/favicon.ico",
