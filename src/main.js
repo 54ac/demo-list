@@ -17,8 +17,7 @@ for (const p of projects.sort((a, b) =>
 
 	pA.target = "_blank";
 	pA.rel = "noopener noreferer";
-	if (p.demo) pA.href = "https://rowrawer.cf:" + p.port;
-	else pA.href = p.url;
+	pA.href = p.url || `https://${window.location.hostname}:${p.port}`;
 
 	pMainP.textContent = p.name;
 	pSecP.textContent = p.description;
@@ -32,5 +31,5 @@ const meA = document.createElement("a");
 const user = "rowrawer";
 const domain = "gmail.com";
 meA.href = "mailto:" + user + "@" + domain;
-meA.textContent = user;
+meA.textContent = "rowrawer";
 me.appendChild(meA);

@@ -2,7 +2,7 @@
 
 ### Where can I see this?
 
-**[Check it out here.](https://rowrawer.cf/)**
+**[Check it out here.](https://rowrawer.com/)**
 
 ### What is this?
 

@@ -2,49 +2,41 @@
 	{
 		"name": "The Setlist Generator",
 		"description": "A website consisting of a Javascript (React) frontend and Node backend for generating setlists for Spotify artists based on song popularity.",
-		"port": 5415,
-		"demo": true
+		"port": 5415
 	},
 	{
 		"name": "The WebSocket IRC Mimic",
 		"description": "An IRC-like experience in the browser by using WebSockets.",
-		"port": 5421,
-		"demo": true
+		"port": 5421
 	},
 	{
 		"name": "The YouTube Audio Player",
 		"description": "A YouTube audio-only player consisting of a Javascript frontend and Node.js backend.",
-		"port": 5422,
-		"demo": true
+		"port": 5422
 	},
 	{
 		"name": "The Voice Memo Repository",
 		"description": "A service consisting of a Javascript (React) frontend and Node backend for quickly and easily recording, storing, removing, and sharing short audio recordings made natively in the browser.",
-		"port": 5441,
-		"demo": true
+		"port": 5441
 	},
 	{
 		"name": "The Obsolete OS Keygen",
 		"description": "An old-school key generator for outdated operating systems made in Javascript.",
-		"port": 5454,
-		"demo": true
+		"port": 5454
 	},
 	{
 		"name": "The List Picking Thing",
 		"description": "A simple decision-making tool written in Javascript for picking elements from a list.",
-		"port": 5455,
-		"demo": true
+		"port": 5455
 	},
 	{
 		"name": "The Stream Detector",
 		"description": "A Firefox addon that detects streams and assembles readymade commands for capturing.",
-		"url": "https://addons.mozilla.org/firefox/addon/hls-stream-detector",
-		"demo": false
+		"url": "https://addons.mozilla.org/firefox/addon/hls-stream-detector"
 	},
 	{
 		"name": "Ecce Arca",
 		"description": "A website made in Javascript (React) and Node for rating the thousands of audio files contained in Rivers Cuomo's Dropbox.",
-		"url": "https://rowrawer.cf:5458",
-		"demo": false
+		"port": 5458
 	}
 ]
