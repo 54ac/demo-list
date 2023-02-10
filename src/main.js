@@ -1,4 +1,3 @@
-import "./main.css";
 import projects from "./projects.json";
 
 const projectsDiv = document.querySelector("#projects");
