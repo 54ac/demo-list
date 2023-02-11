@@ -10,6 +10,10 @@
 	"version": "1.1.1",
 	"private": true,
 	"devDependencies": {
+		"@babel/core": "^7.18.10",
+		"@babel/eslint-parser": "^7.18.9",
+		"@babel/eslint-plugin": "^7.19.1",
+		"@parcel/babel-preset-env": "^2.8.3",
 		"parcel": "^2.8.3",
 		"rimraf": "^4.1.2",
 		"eslint": "^8.21.0",
