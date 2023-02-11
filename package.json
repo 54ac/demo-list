@@ -7,11 +7,18 @@
 		"url": "https://github.com/rowrawer"
 	},
 	"repository": "github:rowrawer/demo-list",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"private": true,
 	"devDependencies": {
 		"parcel": "^2.8.3",
-		"rimraf": "^4.1.2"
+		"rimraf": "^4.1.2",
+		"eslint": "^8.21.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"prettier": "^2.8.1",
+		"stylelint": "^15.0.0",
+		"stylelint-config-recommended": "^10.0.1",
+		"stylelint-config-standard": "^30.0.1"
 	},
 	"scripts": {
 		"build": "rimraf dist && parcel build src/index.html --no-source-maps",
