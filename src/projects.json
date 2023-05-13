@@ -36,7 +36,7 @@
 	},
 	{
 		"name": "Ecce Arca",
-		"description": "A website made in Javascript (React) and Node for rating the thousands of audio files contained in Rivers Cuomo's Dropbox.",
+		"description": "A website made in Javascript (React) and Node for rating thousands of audio files contained in a publicly shared Dropbox folder, written for and endorsed by Rivers Cuomo, frontman of the rock band Weezer.",
 		"port": 5458
 	}
 ]
