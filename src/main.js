@@ -27,8 +27,8 @@ for (const p of projects.sort((a, b) =>
 }
 
 const meA = document.createElement("a");
-const user = "me";
-const domain = "54ac.bio";
+const user = "54acbio";
+const domain = "gmail.com";
 meA.href = "mailto:" + user + "@" + domain;
 meA.textContent = "54ac";
 me.appendChild(meA);
