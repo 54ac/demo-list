@@ -1,32 +1,22 @@
 {
-	"name": "demo-list",
-	"description": "A simple list of GitHub demos and random projects.",
-	"author": {
-		"name": "54ac",
-		"email": "54acbio@gmail.com",
-		"url": "https://github.com/54ac"
-	},
-	"repository": "github:54ac/demo-list",
-	"version": "1.1.1",
+	"name": "list",
 	"private": true,
-	"devDependencies": {
-		"@babel/core": "^7.18.10",
-		"@babel/eslint-parser": "^7.18.9",
-		"@babel/eslint-plugin": "^7.19.1",
-		"@parcel/babel-preset-env": "^2.8.3",
-		"eslint": "^8.21.0",
-		"eslint-config-prettier": "^9.0.0",
-		"eslint-plugin-prettier": "^5.0.1",
-		"parcel": "^2.8.3",
-		"prettier": "^3.0.3",
-		"rimraf": "^5.0.5",
-		"stylelint": "^15.0.0",
-		"stylelint-config-recommended": "^13.0.0",
-		"stylelint-config-standard": "^34.0.0"
-	},
+	"version": "2.0.0",
+	"type": "module",
 	"scripts": {
-		"build": "rimraf dist && parcel build src/index.html --no-source-maps",
-		"start": "rimraf dist && parcel src/index.html"
+		"start": "vite --open",
+		"build": "vite build",
+		"preview": "vite preview"
 	},
-	"browserslist": "defaults"
+	"devDependencies": {
+		"vite": "^6.2.0",
+		"prettier": "^3.1.1",
+		"stylelint": "^16.3.1",
+		"stylelint-config-standard": "^37.0.0",
+		"@eslint/eslintrc": "^3.3.0",
+		"@eslint/js": "^9.21.0",
+		"eslint": "^9.21.0",
+		"eslint-config-prettier": "^10.0.2",
+		"globals": "^16.0.0"
+	}
 }

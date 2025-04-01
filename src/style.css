@@ -25,6 +25,10 @@ body {
 	row-gap: 0.25em;
 }
 
+header {
+	margin-bottom: 0.75em;
+}
+
 a {
 	color: inherit;
 }
@@ -35,24 +39,45 @@ p {
 	padding: 0.75em;
 }
 
-.mainLink {
+.main-link {
 	text-decoration: none;
 	padding: 0.75em;
 }
 
-.mainLink p {
+.main-p {
 	padding: 0;
 	text-align: justify;
 }
 
-.mainLink:hover {
+.main-link:hover {
 	background-color: #f0f0f0;
 }
 
-.secP {
+.sec-p {
 	color: #686868;
+	text-align: justify;
+	padding: 0;
+}
+
+footer {
+	margin-top: 0.75em;
 }
 
 #me {
 	text-align: right;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #080808;
+		color: #f8f8f8;
+	}
+
+	.main-link:hover {
+		background-color: #1a1a1a;
+	}
+
+	.sec-p {
+		color: #b0b0b0;
+	}
 }
